@@ -98,24 +98,24 @@ function EachJoke() {
                                   <div className="next-joke">
                                       {prevDisabled ? (
                                            <div className="prev" onDoubleClick={(e)=>e.preventDefault()} >
-                                           <img src={prev} />
+                                           <img src={prev} className="more-joke"/>
                                            <span>PREV JOKE</span>
                                           </div>
                                        ):(
                                         <div className="prev" onDoubleClick={(e)=>e.preventDefault()} onClick={()=>setCount(count - 1)}>
-                                        <img src={prev} />
+                                        <img src={prev} className="more-joke"/>
                                         <span>PREV JOKE</span>
                                          </div>
                                        )}
                                       {nextDisabled ? (
                                           <div className="next" onDoubleClick={(e)=>e.preventDefault()} >
                                           <span >NEXT JOKE</span>
-                                          <img src={next} />
+                                          <img src={next} className="more-joke"/>
                                       </div>
                                       ):(
                                         <div className="next" onDoubleClick={(e)=>e.preventDefault()} onClick={()=>setCount(count + 1)}>
                                         <span >NEXT JOKE</span>
-                                        <img src={next} />
+                                        <img className="more-joke"src={next} />
                                     </div>
                                       )}
                                   </div>
