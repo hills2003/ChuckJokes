@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ChuckJokes/static/css/main.7e4c5b0e.css",
+    "main.js": "/ChuckJokes/static/js/main.d521bacd.js",
+    "static/media/bitmap.png": "/ChuckJokes/static/media/bitmap.869b81b7436dee2a6ab5.png",
+    "static/media/bitmap-copy.png": "/ChuckJokes/static/media/bitmap-copy.4d07e6fc9d1b1265ab24.png",
+    "index.html": "/ChuckJokes/index.html",
+    "main.7e4c5b0e.css.map": "/ChuckJokes/static/css/main.7e4c5b0e.css.map",
+    "main.d521bacd.js.map": "/ChuckJokes/static/js/main.d521bacd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e4c5b0e.css",
+    "static/js/main.d521bacd.js"
+  ]
+}
